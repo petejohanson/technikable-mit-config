@@ -8,13 +8,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: features/soft-off-take-3
-      # Switch to below to use ZMK main. Will not work with the technikable@1.1 target until
-      # soft off PR https://github.com/zmkfirmware/zmk/pull/2085/ is merged
-      #
-      # remote: zmkfirmware
-      # revision: main
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: technikable-zmk-config
       remote: petejohanson
