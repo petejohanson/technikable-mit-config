@@ -9,10 +9,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: technikable-zmk-config
       remote: petejohanson
-      revision: main
+      revision: v0.3
   self:
     path: config
